@@ -12,7 +12,7 @@ hand in a sandbox with no network access, so `composer install` couldn't be
 run here). Create the base install first, then drop these files in:
 
 ```bash
-composer create-project laravel/laravel sms-app "^11.0"
+composer create-project laravel/laravel sms-app "^12.0"
 cd sms-app
 ```
 

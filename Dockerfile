@@ -47,7 +47,7 @@ RUN chown -R www-data:www-data storage bootstrap/cache \
 EXPOSE 80
 
 # Matches bootstrap/app.php's withRouting(health: '/up') — Laravel 11's
-# default health-check route.
+# default health-check route (unchanged in Laravel 12).
 HEALTHCHECK --interval=30s --timeout=5s --start-period=20s --retries=3 \
     CMD curl -f http://localhost/up || exit 1
 
