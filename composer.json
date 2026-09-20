@@ -3,7 +3,7 @@
     "description": "School Management System for Future Legacy School (Admin / Student / Parent) — Phases 1-4",
     "type": "project",
     "require": {
-        "php": "^8.2",
+        "php": "^8.4",
         "laravel/framework": "^12.0",
         "kreait/firebase-php": "^7.10",
         "dompdf/dompdf": "^3.0"
@@ -49,6 +49,9 @@
     },
     "config": {
         "optimize-autoloader": true,
+        "platform": {
+            "php": "8.4.1"
+        },
         "preferred-install": "dist",
         "sort-packages": true,
         "allow-plugins": {
